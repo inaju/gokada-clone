@@ -1,0 +1,82 @@
+body {
+  background: #0e0e0f;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+.hero-section {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+.hero > * {
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  position: relative;
+  top: 20%;
+  left: 18%;
+  max-width: 850px;
+  text-align: center;
+}
+
+.hero .hero-head,
+.hero .hero-sub-text {
+  color: white;
+  margin-top: 1rem;
+}
+.hero .hero-head {
+  font-size: 4rem;
+}
+.hero .hero-sub-text {
+  font-size: 1.3rem;
+}
+
+.hero .sub-text {
+  color: grey;
+  font-size: 0.8rem;
+}
+
+.hero button {
+  color: #0e0e0f;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: #00c795;
+  padding: 1rem 2.5rem;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  background: rgba(23, 24, 26, 0.9);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-left: 8rem; */
+  padding: 0.7rem 5rem;
+  /* padding-right: 8rem; */
+}
+
+nav .logo img {
+  width: 9rem;
+}
+nav .links a {
+  color: white;
+  text-decoration: none;
+}
+nav .links {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+nav .links a:hover {
+  cursor: pointer;
+  color: grey;
+}
